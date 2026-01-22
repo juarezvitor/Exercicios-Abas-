@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Exercicio</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <main class="container">
+         <div id="Card">
+            <div id="tabs">
+               <button class="tab Active" data-tab="1"">
+               First Tab
+               </button>
+               <button class="tab" data-tab="2" >Second Tab</button>
+               <button class="tab" data-tab="3" >Third tab</button>
+               <button class="tab" data-tab="4" >Fourth Tab</button>
+            </div>
+            <div class="contents">
+               <div class="content active" data-content="1">
+                  <div id="CardTop">
+                     <p>
+                        Este é um exemplo simples de um componente de abas desenvolvido com HTML, CSS e JavaScript puro. Ao clicar em cada aba, o conteúdo exibido é alterado dinamicamente, sem a necessidade de recarregar a página. Por padrão, esta primeira aba já inicia ativa para demonstrar o comportamento esperado.
+                     </p>
+                  </div>
+                  <div id="CardMiddle">
+                     <h2>Bem-vindo ao Componente de Abas</h2>
+                  </div>
+                  <div id="CardBottom">
+                     <p>
+                        Paragrafo primeiro Card
+                     </p>
+                  </div>
+               </div>
+               <div class="content " data-content="2">
+                  <div id="CardTop">
+                     <p>
+O objetivo deste exercício é praticar a manipulação do DOM e o tratamento de eventos em JavaScript. Aqui você aprende a selecionar elementos, ouvir eventos de clique e controlar estados visuais utilizando classes CSS, simulando um comportamento comum em aplicações reais.                     </p>
+                  </div>
+                  <div id="CardMiddle">
+                     <h2>Objetivo do Exercício</h2>
+                  </div>
+                  <div id="CardBottom">
+                     <p>
+                        Paragrafo do Segundo Card
+                     </p>
+                  </div>
+               </div>
+               <div class="content " data-content="3">
+                  <div id="CardTop">
+                     <p>
+                        Cada aba está associada a um conteúdo específico por meio de atributos personalizados (data-*). Quando uma aba é clicada, o JavaScript remove a classe ativa de todas as abas e conteúdos, ativando apenas aqueles correspondentes à interação do usuário.
+                     </p>
+                  </div>
+                  <div id="CardMiddle">
+                     <h2>Como Funciona</h2>
+                  </div>
+                  <div id="CardBottom">
+                     <p>
+                        Paragrafo do Terceiro Card
+                     </p>
+                  </div>
+               </div>
+               <div class="content " data-content="4">
+                  <div id="CardTop">
+                     <p>
+Esse padrão de abas é amplamente utilizado em interfaces modernas e serve como base para componentes mais avançados em frameworks como React, Vue ou Angular. Dominar esse conceito com JavaScript puro fortalece sua base e melhora sua compreensão sobre interfaces interativas.                     </p>
+                  </div>
+                  <div id="CardMiddle">
+                     <h2>Conclusão</h2>
+                  </div>
+                  <div id="CardBottom">
+                     <p>
+                        Paragrafo do Quarto Card
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <script src="script.js" defer></script>
+   </body>
+</html>
