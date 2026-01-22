@@ -50,3 +50,5 @@ O componente simula um sistema de abas (tabs), onde o conteúdo exibido muda con
 1. Clone o repositório:
 ```bash
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+
+https://roadmap.sh/projects/simple-tabs
